@@ -11,3 +11,73 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+/* resets */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* header footerstyle */
+header,
+footer {
+  background-color: rgb(219, 205, 157);
+  height: 55px;
+  text-align: center;
+  font-weight: bold;
+  color: white;
+  font-size: 1em;
+  padding: 20px;
+}
+/* Home Screen Style */
+main {
+  min-height: calc(100vh - 110px);
+}
+main .container {
+  margin: 0 auto;
+  width: 800px;
+}
+main .container .hero-section {
+  padding: 2em 1em;
+  border-bottom: 1px solid black;
+  margin-bottom: 2em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+main .container .hero-section h1 {
+  text-align: center;
+}
+main .container .hero-section img {
+  margin: 0 auto;
+  width: 200px;
+  object-fit: cover;
+}
+/* content-section Style */
+.content-section {
+  margin-bottom: 3em;
+}
+/* content-div style */
+.content-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.content-div h3,
+.content-div .get-url-div,
+.content-div p {
+  margin-bottom: 1em;
+  max-width: 500px;
+}
+/* get url style */
+.get-url-div {
+  padding: 0.6em 2em;
+  border: 1px solid black;
+}
+.get-url-div b {
+  color: red;
+}
+.get-url-div a {
+  color: black;
+  text-decoration: none;
+}
