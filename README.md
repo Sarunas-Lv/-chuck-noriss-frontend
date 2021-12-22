@@ -23,7 +23,7 @@ Project is created using:
 
 ## Setup
 
-1. Make sure backend is started a
+1. Make sure backend is running 
 2. Go to directory folder, open integrated terminal and run 'npm i'
 3. Once in directory start the project in terminal run 'npm start'
 
